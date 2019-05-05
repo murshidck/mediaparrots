@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -425,10 +427,22 @@ h6,
 #msg-box3-31 .mbr-section-title {
   color: #fafafa;
   text-align: center;
+  font-size: 36px;
 }
 #msg-box3-31 .lead P {
   color: #ffffff;
-  font-size: 21px;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#header3-36 .mbr-section-title,
+#header3-36 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-36 .mbr-section-title {
+  color: #ffffff;
+}
+#header3-36 .mbr-section-subtitle {
+  color: #ffffff;
 }
 #menu-1b .hide-buttons .nav-btn {
   display: none !important;
@@ -500,8 +514,230 @@ h6,
   font-size: 46px;
 }
 #contacts1-34 P {
-  color: #494949;
+  color: #000000;
 }
-#form1-2p .form-control-label {
+
+#menu-38 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-38 .navbar-caption {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+#menu-38 .navbar-toggler {
   color: #232323;
+}
+#menu-38 .close-icon::before,
+#menu-38 .close-icon::after {
+  background-color: #232323;
+}
+#menu-38 .link,
+#menu-38 .dropdown-item {
+  color: #232323;
+}
+#menu-38 .link {
+  font-size: 0.95rem;
+}
+#menu-38 .dropdown-item,
+#menu-38 .nav-dropdown-sm .link {
+  font-size: 1.029rem;
+}
+#menu-38 .link:hover,
+#menu-38 .dropdown-item:hover,
+#menu-38 .link:focus,
+#menu-38 .dropdown-item:focus {
+  color: #0ba7a4;
+}
+#menu-38 .link[aria-expanded="true"],
+#menu-38 .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-38 .nav-dropdown-sm .link:focus,
+#menu-38 .nav-dropdown-sm .link:hover,
+#menu-38 .nav-dropdown-sm .dropdown-item:focus,
+#menu-38 .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-38 .navbar,
+#menu-38 .nav-dropdown-sm,
+#menu-38 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-38 .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-38 .bg-color.transparent .link {
+  color: #232323;
+  transition: none;
+}
+#menu-38 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-38 .bg-color.transparent.opened .link:hover,
+#menu-38 .bg-color.transparent.opened .link:focus {
+  color: #0ba7a4;
+}
+#menu-38 .link[aria-expanded="true"],
+#menu-38 .dropdown-item[aria-expanded="true"] {
+  color: #0ba7a4!important;
+}
+#contacts1-39 P {
+  color: #000000;
+}
+
+
+#menu-3o .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-3o .navbar-caption {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+#menu-3o .navbar-toggler {
+  color: #232323;
+}
+#menu-3o .close-icon::before,
+#menu-3o .close-icon::after {
+  background-color: #232323;
+}
+#menu-3o .link,
+#menu-3o .dropdown-item {
+  color: #232323;
+}
+#menu-3o .link {
+  font-size: 0.95rem;
+}
+#menu-3o .dropdown-item,
+#menu-3o .nav-dropdown-sm .link {
+  font-size: 1.029rem;
+}
+#menu-3o .link:hover,
+#menu-3o .dropdown-item:hover,
+#menu-3o .link:focus,
+#menu-3o .dropdown-item:focus {
+  color: #0ba7a4;
+}
+#menu-3o .link[aria-expanded="true"],
+#menu-3o .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-3o .nav-dropdown-sm .link:focus,
+#menu-3o .nav-dropdown-sm .link:hover,
+#menu-3o .nav-dropdown-sm .dropdown-item:focus,
+#menu-3o .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-3o .navbar,
+#menu-3o .nav-dropdown-sm,
+#menu-3o .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-3o .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-3o .bg-color.transparent .link {
+  color: #232323;
+  transition: none;
+}
+#menu-3o .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-3o .bg-color.transparent.opened .link:hover,
+#menu-3o .bg-color.transparent.opened .link:focus {
+  color: #0ba7a4;
+}
+#menu-3o .link[aria-expanded="true"],
+#menu-3o .dropdown-item[aria-expanded="true"] {
+  color: #0ba7a4!important;
+}
+#header3-3r .mbr-section-title,
+#header3-3r .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-3r .mbr-section-title {
+  text-align: left;
+}
+#content1-3t P {
+  color: #000000;
+}
+#content1-3t DIV {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+#contacts1-3p P {
+  color: #000000;
+}
+
+
+#menu-3y .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-3y .navbar-caption {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+#menu-3y .navbar-toggler {
+  color: #232323;
+}
+#menu-3y .close-icon::before,
+#menu-3y .close-icon::after {
+  background-color: #232323;
+}
+#menu-3y .link,
+#menu-3y .dropdown-item {
+  color: #232323;
+}
+#menu-3y .link {
+  font-size: 0.95rem;
+}
+#menu-3y .dropdown-item,
+#menu-3y .nav-dropdown-sm .link {
+  font-size: 1.029rem;
+}
+#menu-3y .link:hover,
+#menu-3y .dropdown-item:hover,
+#menu-3y .link:focus,
+#menu-3y .dropdown-item:focus {
+  color: #0ba7a4;
+}
+#menu-3y .link[aria-expanded="true"],
+#menu-3y .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-3y .nav-dropdown-sm .link:focus,
+#menu-3y .nav-dropdown-sm .link:hover,
+#menu-3y .nav-dropdown-sm .dropdown-item:focus,
+#menu-3y .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-3y .navbar,
+#menu-3y .nav-dropdown-sm,
+#menu-3y .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-3y .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-3y .bg-color.transparent .link {
+  color: #232323;
+  transition: none;
+}
+#menu-3y .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-3y .bg-color.transparent.opened .link:hover,
+#menu-3y .bg-color.transparent.opened .link:focus {
+  color: #0ba7a4;
+}
+#menu-3y .link[aria-expanded="true"],
+#menu-3y .dropdown-item[aria-expanded="true"] {
+  color: #0ba7a4!important;
+}
+#msg-box3-41 .mbr-section-title,
+#msg-box3-41 p {
+  color: #000;
+}
+#msg-box3-41 .lead P {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+#contacts1-3z P {
+  color: #000000;
 }
