@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
-
 
 
 
@@ -420,19 +418,11 @@ h6,
 .scrollToTop_wraper {
   display: none;
 }
-#msg-box3-31 .mbr-section-title,
-#msg-box3-31 p {
-  color: #000;
+#header2-42 .mbr-section-title {
+  color: #000000;
 }
-#msg-box3-31 .mbr-section-title {
-  color: #fafafa;
-  text-align: center;
-  font-size: 36px;
-}
-#msg-box3-31 .lead P {
-  color: #ffffff;
-  font-size: 18px;
-  font-family: 'Ubuntu', sans-serif;
+#header2-42 .mbr-section-text {
+  color: #000000;
 }
 #header3-36 .mbr-section-title,
 #header3-36 .mbr-section-subtitle {
@@ -440,6 +430,7 @@ h6,
 }
 #header3-36 .mbr-section-title {
   color: #ffffff;
+  font-size: 36px;
 }
 #header3-36 .mbr-section-subtitle {
   color: #ffffff;

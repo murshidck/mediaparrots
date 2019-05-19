@@ -31,7 +31,7 @@
       ]
     },
     "versionFirst": "4.4.1",
-    "uniqCompNum": 146,
+    "uniqCompNum": 147,
     "versionPublish": "4.8.8",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "",
@@ -56,50 +56,63 @@
       },
       "components": [
         {
-          "_inherit": "msg-box8",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#000"
-            },
-            ".mbr-section-title": {
-              "color": "#fafafa",
-              "text-align": "center",
-              "font-size": "36px"
-            },
-            ".lead P": {
-              "color": "#ffffff",
-              "font-size": "18px",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            }
-          },
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButton": true,
-            "paddingTop": "5",
-            "paddingBottom": "3",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/art-artistic-artsy-2103127-1280x805.jpg",
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.6"
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
           },
-          "title": "WANT TO KNOW HOW INTERESTING YOUR STORY CAN BE?",
-          "text": "<p>Each story is different. Different stories from different angles. Know how our team write a perfect story for your success.</p>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/2-1400x549.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "THE BEST ADVERTISING AGENCY FOR YOUR BUSINESS",
+          "text": "We build brands for companies and organizations that are ready to live their purpose and lead with their values.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
           "_tags": [
             "Theme"
           ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-31"
+          "_name": "header2",
+          "_anchor": "header2-42",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "_styles": {
@@ -107,7 +120,8 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "36px"
             },
             ".mbr-section-subtitle": {
               "color": "#ffffff"
@@ -185,7 +199,7 @@
             "hideButtons": true,
             "sticky": false,
             "collapsed": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#ffffff",
             "fontSize": "0.95",
             "fontName": {},
@@ -196,12 +210,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-2-381x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/1-205x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -292,7 +305,7 @@
             "paddingBottom": 1,
             "bgColor": "#232323"
           },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"gallery.html\" data-toolbar=\"-mbrBtnMove\">See More</a>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-secondary-outline btn-secondary\" href=\"gallery.html\" data-toolbar=\"-mbrBtnMove\">See More</a>",
           "_tags": [
             "Theme"
           ],
@@ -488,7 +501,7 @@
             "hideButtons": true,
             "sticky": false,
             "collapsed": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#ffffff",
             "fontSize": "0.95",
             "fontName": {},
@@ -499,7 +512,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-2-381x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/1-205x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -803,7 +816,7 @@
             "hideButtons": true,
             "sticky": false,
             "collapsed": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#ffffff",
             "fontSize": "0.95",
             "fontName": {},
@@ -814,7 +827,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-2-381x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/1-205x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -1009,7 +1022,7 @@
             "hideButtons": true,
             "sticky": false,
             "collapsed": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#ffffff",
             "fontSize": "0.95",
             "fontName": {},
@@ -1020,7 +1033,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-2-381x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/1-205x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
